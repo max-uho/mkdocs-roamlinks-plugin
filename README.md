@@ -1,4 +1,4 @@
-This fork allows for aliases also preceded by "\|" rather than only by "|"
+This fork allows for aliases also preceded by "\\|" rather than only by "|"
 
 # MkDocs Roamlinks Plugin
 
