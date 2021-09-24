@@ -86,7 +86,7 @@ class RoamLinkReplacer:
     def __call__(self, match):
         # Name of the markdown file
         whole_link = match.group(0)
-        filename = match.group(2).strip('\\’) if match.group(2) else ""
+        filename = match.group(2).strip("\\") if match.group(2) else ""
         title = match.group(3).strip() if match.group(3) else ""
         format_title = self.gfm_anchor(title)
         alias = match.group(4).strip('|') if match.group(4) else ""
