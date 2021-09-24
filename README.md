@@ -1,3 +1,5 @@
+This fork allows for aliases also preceded by \| rather than only by |
+
 # MkDocs Roamlinks Plugin
 
 An MkDocs plugin that simplifies relative linking between documents and convert [[roamlinks]] for [vscode-foam](https://github.com/foambubble/foam) & [obsidian](https://obsidian.md) 
